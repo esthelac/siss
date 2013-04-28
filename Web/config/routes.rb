@@ -1,5 +1,7 @@
 SpotTheIss::Application.routes.draw do
   
+  match 'locations/check' => 'locations#index'
+
   match 'spots/checkin' => 'spots#create'
 
   resources :spots
