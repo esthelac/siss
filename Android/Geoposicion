@@ -1,0 +1,37 @@
+--Cambios en MainCamera.cs
+
+Metodo geoposicion
+public void GetCoordinates(string message){
+  	String latitude;
+		String longitude;
+		String city;
+		//accessData(Response);
+		Debug.Log (message);
+		string[] words = message.Split(':',',','{','}');
+		if (words[10]!= null){
+		Debug.Log(words[18]+" Longitud");
+			longitude=words[18];
+		//timestamp=words[8].n;
+			Debug.Log(words[16]+" Latitud");
+			latitude=words[16];
+			Debug.Log(words[12]+" Ciry");
+			city=words[12];
+		}
+	}
+
+
+Llamada al metodo geoposicion
+HttpReq.Call ("GetCoordinates", new string[] {"1"}, GetCoordinates);
+
+--Cambios en HttpRequest.cs
+
+private string vUrl="http://freegeoip.net/json/";
+Metodo Call
+
+  		case "GetCoordinates":
+			{
+				form.AddField("Operacion", method);
+        		form.AddField("User", parametros[0]);		
+				break;
+			}	
+
