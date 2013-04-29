@@ -1,0 +1,157 @@
+--Respuesta compacta
+{ "object 0": [ {"weather": [ {"date": "2013-04-28", "tempMaxC": "26", "tempMaxF": "79", "tempMinC": "17", "tempMinF": "63"}],  "weatherDesc": [ {"value": "Light rain shower" } ],  "weatherIconUrl": [ {"value": "http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0009_light_rain_showers.png" } ] , "response": [{"duration": 357, "risetime": 1367244359}]}],
+"object 1": [ {"weather": [ {"date": "2013-04-28", "tempMaxC": "26", "tempMaxF": "79", "tempMinC": "17", "tempMinF": "63"}],  "weatherDesc": [ {"value": "Light rain shower" } ],  "weatherIconUrl": [ {"value": "http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0009_light_rain_showers.png" } ] , "response": [{"duration": 357, "risetime": 1367244359}]}],
+"object 2": [ {"weather": [ {"date": "2013-04-28", "tempMaxC": "26", "tempMaxF": "79", "tempMinC": "17", "tempMinF": "63"}],  "weatherDesc": [ {"value": "Light rain shower" } ],  "weatherIconUrl": [ {"value": "http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0009_light_rain_showers.png" } ] , "response": [{"duration": 357, "risetime": 1367244359}]}],
+"object 3": [ {"weather": [ {"date": "2013-04-28", "tempMaxC": "26", "tempMaxF": "79", "tempMinC": "17", "tempMinF": "63"}],  "weatherDesc": [ {"value": "Light rain shower" } ],  "weatherIconUrl": [ {"value": "http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0009_light_rain_showers.png" } ] , "response": [{"duration": 357, "risetime": 1367244359}]}],
+"object 4": [ {"weather": [ {"date": "2013-04-28", "tempMaxC": "26", "tempMaxF": "79", "tempMinC": "17", "tempMinF": "63"}],  "weatherDesc": [ {"value": "Light rain shower" } ],  "weatherIconUrl": [ {"value": "http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0009_light_rain_showers.png" } ] , "response": [{"duration": 357, "risetime": 1367244359}]}]
+}
+
+
+--Respuesta tabulada
+{
+    "object 0": [
+        {
+            "weather": [
+                {
+                    "date": "2013-04-28",
+                    "tempMaxC": "26",
+                    "tempMaxF": "79",
+                    "tempMinC": "17",
+                    "tempMinF": "63"
+                }
+            ],
+            "weatherDesc": [
+                {
+                    "value": "Light rain shower"
+                }
+            ],
+            "weatherIconUrl": [
+                {
+                    "value": "http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+                }
+            ],
+            "response": [
+                {
+                    "duration": 357,
+                    "risetime": 1367244359
+                }
+            ]
+        }
+    ],
+    "object 1": [
+        {
+            "weather": [
+                {
+                    "date": "2013-04-28",
+                    "tempMaxC": "26",
+                    "tempMaxF": "79",
+                    "tempMinC": "17",
+                    "tempMinF": "63"
+                }
+            ],
+            "weatherDesc": [
+                {
+                    "value": "Light rain shower"
+                }
+            ],
+            "weatherIconUrl": [
+                {
+                    "value": "http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+                }
+            ],
+            "response": [
+                {
+                    "duration": 357,
+                    "risetime": 1367244359
+                }
+            ]
+        }
+    ],
+    "object 2": [
+        {
+            "weather": [
+                {
+                    "date": "2013-04-28",
+                    "tempMaxC": "26",
+                    "tempMaxF": "79",
+                    "tempMinC": "17",
+                    "tempMinF": "63"
+                }
+            ],
+            "weatherDesc": [
+                {
+                    "value": "Light rain shower"
+                }
+            ],
+            "weatherIconUrl": [
+                {
+                    "value": "http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+                }
+            ],
+            "response": [
+                {
+                    "duration": 357,
+                    "risetime": 1367244359
+                }
+            ]
+        }
+    ],
+    "object 3": [
+        {
+            "weather": [
+                {
+                    "date": "2013-04-28",
+                    "tempMaxC": "26",
+                    "tempMaxF": "79",
+                    "tempMinC": "17",
+                    "tempMinF": "63"
+                }
+            ],
+            "weatherDesc": [
+                {
+                    "value": "Light rain shower"
+                }
+            ],
+            "weatherIconUrl": [
+                {
+                    "value": "http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+                }
+            ],
+            "response": [
+                {
+                    "duration": 357,
+                    "risetime": 1367244359
+                }
+            ]
+        }
+    ],
+    "object 4": [
+        {
+            "weather": [
+                {
+                    "date": "2013-04-28",
+                    "tempMaxC": "26",
+                    "tempMaxF": "79",
+                    "tempMinC": "17",
+                    "tempMinF": "63"
+                }
+            ],
+            "weatherDesc": [
+                {
+                    "value": "Light rain shower"
+                }
+            ],
+            "weatherIconUrl": [
+                {
+                    "value": "http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+                }
+            ],
+            "response": [
+                {
+                    "duration": 357,
+                    "risetime": 1367244359
+                }
+            ]
+        }
+    ]
+}
